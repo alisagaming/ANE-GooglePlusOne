@@ -1,2 +1,1 @@
-ANE-GooglePlusOne
-=================
+Air Native Extension for Android to let users +1 right from the app

@@ -1,0 +1,19 @@
+
+<extension xmlns="http://ns.adobe.com/air/extension/3.1">
+  <id>com.emerginggames.AirGooglePlusOne</id>
+  <versionNumber>1</versionNumber>
+  <platforms>
+
+    <platform name="Android-ARM"> 
+        <applicationDeployment> 
+            <nativeLibrary>libAirGooglePlusOne.jar</nativeLibrary> 
+            <initializer>com.emerginggames.ane.AirGooglePlusOne.AirGooglePlusOneExtension</initializer> 
+            <finalizer>com.emerginggames.ane.AirGooglePlusOne.AirGooglePlusOneExtension</finalizer> 
+        </applicationDeployment> 
+    </platform> 
+    
+    <platform name="default"> 
+        <applicationDeployment/> 
+    </platform> 
+  </platforms>
+</extension>
